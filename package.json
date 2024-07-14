@@ -1,12 +1,28 @@
 {
-  "name": "localstorage",
-  "version": "1.0.0",
-  "description": "`nextpersist` is a lightweight utility for managing local storage in React and Next.js applications. It provides an easy-to-use API for setting, getting, and deleting items in local storage with support for a parent key to namespace the stored data.",
+  "name": "@nextmastery/nextpersist",
+  "version": "1.0.2",
+  "description": "nextpersist is a lightweight utility for managing local storage in React and Next.js applications. It provides an easy-to-use API for setting, getting, and deleting items in local storage with support for a parent key to namespace the stored data.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mypush": "export VERSION=$(node -p -e \"require('./package.json').version\") && git add . && git commit -m 'Bump version to $VERSION' && git tag v$VERSION && git push origin main && git push origin v$VERSION && npm publish --access public"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "localstorage",
+    "next.js",
+    "react",
+    "persistence",
+    "storage",
+    "utility"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhamail/nextpersist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhamail/nextpersist/issues"
+  },
+  "homepage": "https://github.com/mhamail/nextpersist#readme"
 }
