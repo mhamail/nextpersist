@@ -1,6 +1,6 @@
 {
   "name": "@nextmastery/nextpersist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "nextpersist is a lightweight utility for managing local storage in React and Next.js applications. It provides an easy-to-use API for setting, getting, and deleting items in local storage with support for a parent key to namespace the stored data.",
   "main": "index.js",
   "scripts": {
@@ -19,10 +19,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhamail/nextpersist.git"
+    "url": "https://github.com/nextmasterygit/nextpersist.git"
   },
   "bugs": {
-    "url": "https://github.com/mhamail/nextpersist/issues"
+    "url": "https://github.com/nextmasterygit/nextpersist/issues"
   },
-  "homepage": "https://github.com/mhamail/nextpersist#readme"
+  "homepage": "https://github.com/nextmasterygit/nextpersist#readme"
 }
