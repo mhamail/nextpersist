@@ -1,6 +1,6 @@
 {
   "name": "lightweight-localstorage",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "lightweight-localstorage is a lightweight utility for managing local storage in React and Next.js applications. It provides an easy-to-use API for setting, getting, and deleting items in local storage with support for a parent key to namespace the stored data.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

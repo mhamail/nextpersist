@@ -56,7 +56,7 @@ console.log(allData);
 To delete a value from local storage:
 
 ```js
-ls.delete("key");
+ls.remove("key");
 ```
 
 ## Deleting All Values
@@ -64,7 +64,7 @@ ls.delete("key");
 To delete all values under the parent key:
 
 ```js
-ls.deleteAll();
+ls.removeAll();
 ```
 
 ## Clearing All Local Storage
