@@ -1,0 +1,12 @@
+{
+  "name": "localstorage",
+  "version": "1.0.0",
+  "description": "`nextpersist` is a lightweight utility for managing local storage in React and Next.js applications. It provides an easy-to-use API for setting, getting, and deleting items in local storage with support for a parent key to namespace the stored data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
