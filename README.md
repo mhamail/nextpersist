@@ -14,7 +14,7 @@
 You can install `nextpersist` via npm:
 
 ```sh
-npm install nextpersist
+npm i nextpersist
 
 Usage
 Importing the Package
